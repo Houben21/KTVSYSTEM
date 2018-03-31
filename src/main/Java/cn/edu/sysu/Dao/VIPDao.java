@@ -6,6 +6,10 @@ import java.util.List;
 
 public interface VIPDao {
 
+    /**
+     * 商家添加会员顾客
+     * @param VIP 将要添加的会员顾客
+     */
     void addVIP(VIP VIP);
 
     void deleteVIP(VIP VIP);
